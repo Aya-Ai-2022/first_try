@@ -1,7 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 
-import 'package:first_try/HomeScreen.dart';
+import 'package:first_try/CvApp.dart';
 
 class LoginScreen extends StatelessWidget {
   @override
@@ -59,7 +59,7 @@ class LoginScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => HomeScreen(),
+                      builder: (context) => CvApp(),
                     ),
                   );
                 },
