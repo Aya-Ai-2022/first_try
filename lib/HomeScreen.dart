@@ -1,25 +1,13 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 
-// class MyHomePage extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         leading: const Icon(Icons.menu),
-//         title: const Text('Login Page'),
-//       ),
-//     );
-//   }
-// }
-
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MY CV'),
-        backgroundColor: Colors.deepPurpleAccent,
+        title: const Text('CV APP'),
+        backgroundColor: Colors.deepPurple,
       ),
       body: Center(
         child: Column(
@@ -31,7 +19,9 @@ class HomeScreen extends StatelessWidget {
               'AYATALLAH SABRY  MOHAMMED',
               style: TextStyle(fontSize: 30, color: Colors.deepPurple),
             ),
-            const Text('Mobile: +201006379678'),
+            const Text('Mobile: +201006379678',
+                style: TextStyle(
+                    fontSize: 15, color: Color.fromARGB(255, 45, 25, 82))),
             const SizedBox(height: 60),
             ElevatedButton(
               onPressed: () {},
@@ -40,7 +30,7 @@ class HomeScreen extends StatelessWidget {
                 padding:
                     const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
               ),
-              child: const Text('Contact Me'),
+              child: const Text('Call Me'),
             ),
           ],
         ),
