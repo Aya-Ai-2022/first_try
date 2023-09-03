@@ -1,7 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
+class CvApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
               'AYATALLAH SABRY  MOHAMMED',
               style: TextStyle(fontSize: 30, color: Colors.deepPurple),
             ),
-            const Text('Mobile: +201006379678',
+            const Text('Mobile: +20100xxxxxxx',
                 style: TextStyle(
                     fontSize: 15, color: Color.fromARGB(255, 45, 25, 82))),
             const SizedBox(height: 60),
