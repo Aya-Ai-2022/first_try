@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:first_try/CvApp.dart';
 
 class LoginScreen extends StatelessWidget {
+  const LoginScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -59,7 +61,7 @@ class LoginScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => CvApp(),
+                      builder: (context) => const CvApp(),
                     ),
                   );
                 },

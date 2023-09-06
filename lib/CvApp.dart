@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 
 class CvApp extends StatelessWidget {
+  const CvApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,16 +15,16 @@ class CvApp extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.asset('assets/img.jpg', width: 250, height: 250),
-            const SizedBox(height: 60),
+            Image.asset('assets/img.jpg', width: 200, height: 200),
+            const SizedBox(height: 30),
             const Text(
               'AYATALLAH SABRY  MOHAMMED',
-              style: TextStyle(fontSize: 30, color: Colors.deepPurple),
+              style: TextStyle(fontSize: 20, color: Colors.deepPurple),
             ),
             const Text('Mobile: +20100xxxxxxx',
                 style: TextStyle(
-                    fontSize: 15, color: Color.fromARGB(255, 45, 25, 82))),
-            const SizedBox(height: 60),
+                    fontSize: 10, color: Color.fromARGB(255, 45, 25, 82))),
+            const SizedBox(height: 30),
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
